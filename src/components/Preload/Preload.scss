@@ -1,0 +1,41 @@
+.preload-main-div {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Nunito';
+  .main-text {
+    @keyframes display-text {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+    opacity: 0;
+    animation:display-text 3.3s ease-in-out forwards;
+    color: white;
+    font-size: 2.7rem;
+
+    .top-portion {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      .color-baby-pink {
+        margin-left: 10px;
+        color: #f4c2c2;
+        font-weight: bold;
+      }
+    }
+    .bottom-portion {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      margin-right: 5px;
+      font-weight: bold;
+    }
+  }
+}

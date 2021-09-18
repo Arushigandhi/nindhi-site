@@ -1,0 +1,24 @@
+.narcissism-main-section{
+    display:flex;
+    flex-direction: column;
+    width:90%;
+    margin-bottom:5rem;
+    .main-heading{
+        color:#F4C2C2;
+        font-size:4.2rem;
+        display:flex;
+        flex-direction:column;
+        flex-direction: flex-start;
+    }
+    .bullet-points{
+        margin-top:30px;
+        .bullet-point{
+            color:white;
+            margin:0.5rem 0;
+            font-size:1.9rem;
+            .make-bold{
+                font-weight:bold;
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+.navbar-main-div{
+    width:95%;
+    height:100px;
+    display:flex;
+    margin-top:1rem;
+    flex-direction: row;
+    font-family:'Nunito';
+    justify-content: center;
+
+    .link{
+        color:white;
+        font-weight: bold;
+        margin:0.8rem 1.2rem;
+        cursor: pointer;
+        transition:0.5s ease-in-out;
+        &:hover{
+            color:#F4C2C2;
+        }
+    }
+}

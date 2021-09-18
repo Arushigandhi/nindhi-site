@@ -1,0 +1,44 @@
+.hero-section{
+    display:flex;
+    flex-direction: row;
+    margin-bottom:4rem;
+    width:90%;
+    .left-side{
+        flex:0.5;
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start;
+        .pink-heading{
+            display:flex;
+            flex-direction:column;
+            color:#F4C2C2;
+            font-size:4.5rem;
+        }
+        .written-content{
+            color:white;
+            text-align: start;
+            font-size:1.3rem;
+            .make-bold{
+                font-weight:bold;
+            }
+        }
+    }
+    .right-side{
+        flex:0.5;
+        display:flex;
+        flex-direction: column;
+        align-items: flex-end;
+        .main-image{
+            z-index:100;
+            margin-right:20px;
+        }
+        .background-color{
+            background-color: #F4C2C2;
+            height:24rem;
+            width:32rem;
+            z-index:-10;
+            margin-top:-360px;
+            
+        }
+    }
+}
