@@ -184,7 +184,7 @@ export const Gallery = () => {
         <Container fluid className="main-featured-cont px-0">
             <div className="featured-wrapper">
                 <div className="header">
-                    <h5 className="heading">Featured Projects</h5>
+                    <h5 className="heading">Mes Images</h5>
                 </div>
                 <div className="main-body">
                     <div className="pro-1">
